@@ -26,4 +26,10 @@ public class ConfigurationManagerTest {
         String propertyValue = configManager.getProperty("app.data.directory");
         assertEquals("data/test", propertyValue);
     }
+
+    @Test
+    public void testDefaultProperty() {
+        String propertyValue = configManager.getProperty("app.non.existent", "Default Value");
+        assertEquals("Default Value", propertyValue);
+    }
 }

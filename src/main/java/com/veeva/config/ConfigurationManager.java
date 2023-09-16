@@ -75,6 +75,11 @@ public class ConfigurationManager {
         return properties.getProperty(key);
     }
 
+    public String getProperty(String key, String defaultValue) {
+        String value = properties.getProperty(key);
+        return (value != null) ? value : defaultValue;
+    }
+
     private boolean isValidProfile(String profile) {
         if (profile == null || profile.isEmpty()) {
             return false;
