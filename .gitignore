@@ -1,3 +1,4 @@
-.idea
+.idea/
 veeva_solution.iml
 build/
+out/

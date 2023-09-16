@@ -1,6 +1,12 @@
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class RecordMerger {
 
-	public static final String FILENAME_COMBINED = "combined.csv";
+	private static final Logger logger = LogManager.getLogger();
+
+	// FILENAME_COMBINED is read from a property file, which can be configured at Runtime
+	// public static final String FILENAME_COMBINED = "combined.csv";
 
 	/**
 	 * Entry point of this test.
@@ -16,5 +22,6 @@ public class RecordMerger {
 		}
 
 		// your code starts here.
+		logger.info("Application started with arguments.");
 	}
 }
