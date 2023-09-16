@@ -1,0 +1,12 @@
+2023-09-16 16:01:38 [main] INFO  com.veeva.core.RecordMerger - Input from user: first.html, second.csv
+2023-09-16 16:01:38 [main] INFO  com.veeva.data.DataProcessor - File first.html was read successfully
+2023-09-16 16:01:38 [main] INFO  com.veeva.data.DataProcessor - File second.csv was read successfully
+2023-09-16 16:01:38 [main] INFO  com.veeva.data.DataWriter - Data has been written to data/combined.csv
+2023-09-16 16:02:12 [main] INFO  com.veeva.data.DataWriter - Data has been written to /tmp/junit10404039514162609498/test.csv
+2023-09-16 16:02:12 [main] INFO  com.veeva.data.DataWriter - No data to save to /tmp/junit10636048298091513290/test.csv
+2023-09-16 16:04:26 [main] INFO  com.veeva.data.DataWriter - Data has been written to /tmp/junit1993105682132897930/test.csv
+2023-09-16 16:04:26 [main] INFO  com.veeva.data.DataWriter - No data to save to /tmp/junit4923863635046815744/test.csv
+2023-09-16 16:04:34 [main] INFO  com.veeva.core.RecordMerger - Input from user: first.html, second.csv
+2023-09-16 16:04:34 [main] INFO  com.veeva.data.DataProcessor - File first.html was read successfully
+2023-09-16 16:04:34 [main] INFO  com.veeva.data.DataProcessor - File second.csv was read successfully
+2023-09-16 16:04:34 [main] INFO  com.veeva.data.DataWriter - Data has been written to data/combined.csv

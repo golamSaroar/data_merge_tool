@@ -33,8 +33,8 @@ class DataWriterTest {
                 fileContent.add(line);
             }
 
-            assertEquals("id,name", fileContent.get(0));
-            assertEquals("1,John", fileContent.get(1));
+            assertEquals("\"id\",\"name\"", fileContent.get(0));
+            assertEquals("\"1\",\"John\"", fileContent.get(1));
         }
     }
 
