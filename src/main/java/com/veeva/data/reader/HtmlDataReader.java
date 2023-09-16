@@ -48,7 +48,7 @@ public class HtmlDataReader implements DataReader {
 
                     for (int i = 0; i < columns.size(); i++) {
                         String columnName = columnNames.get(i).toLowerCase();
-                        String columnValue = columns.get(i).text();
+                        String columnValue = columns.get(i).text().replaceAll("\u00a0", "");
                         dataRecord.put(columnName, columnValue);
                     }
 

@@ -2,3 +2,4 @@
 veeva_solution.iml
 build/
 out/
+*.zip

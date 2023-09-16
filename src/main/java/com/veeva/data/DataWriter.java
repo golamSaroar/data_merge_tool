@@ -50,6 +50,8 @@ public class DataWriter {
     }
 
     private static void writeCSVRow(FileWriter csvWriter, List<String> values) throws IOException {
-        csvWriter.append(String.join(configManager.getProperty("csv.delimiter"), values)).append("\n");
+        StringJoiner row = new StringJoiner(configManager.getProperty("csv.delimiter"));
+        values.forEach(value -> row.add("\"" + value + "\""));
+        csvWriter.append(row.toString()).append("\n");
     }
 }

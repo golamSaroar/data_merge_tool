@@ -1,0 +1,20 @@
+<data>
+    <record>
+        <Occupation>Pilot</Occupation>
+        <Name>Jerry Springfield</Name>
+        <Gender>Male</Gender>
+        <ID>6666</ID>
+    </record>
+    <record>
+        <Occupation>Teacher</Occupation>
+        <Name>Jane Doe</Name>
+        <Gender>Female</Gender>
+        <ID>5555</ID>
+    </record>
+    <record>
+        <Occupation>Doctor</Occupation>
+        <Name>Mary Phil</Name>
+        <Gender>Female</Gender>
+        <ID>3333</ID>
+    </record>
+</data>

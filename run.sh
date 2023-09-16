@@ -1,2 +1,2 @@
-java -cp cantest.jar:lib/* RecordMerger $*
+java -cp cantest.jar:lib/* com.veeva.core.RecordMerger $*
 
