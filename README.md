@@ -1,3 +1,5 @@
+This repository contains a Java program designed to merge data from various file formats, such as HTML and CSV, into a single file. The program ensures extensibility for future support of additional file types and offers ease of maintenance. It handles diverse data sets, supporting multiple languages, and provides an efficient solution for consolidating information while maintaining data integrity.
+
 ## Testing
 All tests are placed in the `src/test/java` directory. Tests can be executed by running the following bash script:
 ```console
